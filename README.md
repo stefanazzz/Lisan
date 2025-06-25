@@ -23,7 +23,7 @@
     
 - Then the code plots the solution of velocity of rupture as a function of position on the fault for different scenarios
 
-- Reproduction
+- Reproduction:<br>
   Reproduction of these graphics does not necessarily need Mathematica.
   Indeed this code essentially evaluates and plots analytical solutions that are described in the Methods of the manuscript.
   The plotting of the same solutions using the same parameter values can be reproduced with any common coding (e.g. python with numpy and matplotlib).
