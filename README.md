@@ -15,16 +15,15 @@
   - Mathematica&copy; .m file
   - Mathematica&copy; .pdf file (pdf version of the notebook)
 
-- The code defines equations for
+- The code uses equations defined in the Manuscript, to calculate values of:
   - stress intensity
   - static fracture energy
   - energy flow as a function of rupture velocity
+  - rupture velocity as a function of position
     
-- Then the code  
-  - uses the energy flow equation to compute rupture velocity as a function of position on an indealised earthquake fault model
-  - plots the solution for different scenarios
+- Then the code plots the solution of velocity of rupture as a function of position on the fault for different scenarios
 
 - Reproduction
-  does not necessarily need Mathematica. Indeed this code essentially evaluates and plots analytical solutions
-  that are described in the Methods of the manuscript. The plotting of the same solutions using the same parameter
-  values can be reproduced with any common coding (e.g. python with numpy and matplotlib).
+  Reproduction of these graphics does not necessarily need Mathematica.
+  Indeed this code essentially evaluates and plots analytical solutions that are described in the Methods of the manuscript.
+  The plotting of the same solutions using the same parameter values can be reproduced with any common coding (e.g. python with numpy and matplotlib).
