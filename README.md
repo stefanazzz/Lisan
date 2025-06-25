@@ -3,9 +3,11 @@
 - The manucript is under review in Nature Communications as of Nov. 26, 2024. (reference number: NCOMMS-24-75893). Authors: Nicola De Paola, Rachael J. Bullock, Robert E. Holdsworth, Shmuel Marco, and Stefan Nielsen. 
 
 - The coding is in Mathematica&copy; (Wolfram)
-- Two versions are provided
+- It runs on Mathematica 13.2 (also most likely on any previous Mathematica release > 10, although I have not tested it)  
+- Three versions are provided
   - Mathematica&copy; notebook
-  - Mathematica &copy; .m file
+  - Mathematica&copy; .m file
+  - Mathematica&copy .pdf file (pdf version of the notebook)
 
 - The code defines equations for
   - stress intensity
