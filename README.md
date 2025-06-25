@@ -7,7 +7,7 @@
 - Three versions are provided
   - Mathematica&copy; notebook
   - Mathematica&copy; .m file
-  - Mathematica&copy .pdf file (pdf version of the notebook)
+  - Mathematica&copy; .pdf file (pdf version of the notebook)
 
 - The code defines equations for
   - stress intensity
