@@ -2,8 +2,14 @@
 
 - The manucript is under review in Nature Communications as of Nov. 26, 2024. (reference number: NCOMMS-24-75893). Authors: Nicola De Paola, Rachael J. Bullock, Robert E. Holdsworth, Shmuel Marco, and Stefan Nielsen. 
 
+- This code evaluates and plots analytical solutions that are described in the Methods of the manuscript.
+
 - The coding is in Mathematica&copy; (Wolfram)
-- It runs on Mathematica 13.2 (also most likely on any previous Mathematica release > 10, although I have not tested it)  
+- It runs on Mathematica 13.2 (also most likely on any previous Mathematica release > 10, although I have not tested it)
+- The conde runs in 18 seconds on a single thread / signle CPU of a computer with
+  Architecture:                x86_64
+  Processor:                   AuthenticAMD / AMD EPYC 7742 64-Core Processor
+
 - Three versions are provided
   - Mathematica&copy; notebook
   - Mathematica&copy; .m file
@@ -17,3 +23,8 @@
 - Then the code  
   - uses the energy flow equation to compute rupture velocity as a function of position on an indealised earthquake fault model
   - plots the solution for different scenarios
+
+- Reproduction
+  does not necessarily need Mathematica. Indeed this code essentially evaluates and plots analytical solutions
+  that are described in the Methods of the manuscript. The plotting of the same solutions using the same parameter
+  values can be reproduced with any common coding (e.g. python with numnpy and matplotlib).
